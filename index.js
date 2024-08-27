@@ -6,6 +6,15 @@
 
 
 
-let y = new Array();
 
-console.log(Object.getPrototypeOf(y));
+let dialog = document.querySelector('.dialog');
+let openDialog = document.querySelector('.add-btn');
+
+
+
+openDialog.addEventListener('click', () => {
+   dialog.showModal()
+})
+
+
+
