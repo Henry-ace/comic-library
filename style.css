@@ -88,3 +88,52 @@ input[type='text']:focus {
   outline: none;
 }
 
+
+.library {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.card-container{
+  background-color: rgba(0, 0, 255, 0.244);
+  background-position: center;
+  background-size: contain;
+  width: 20rem;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card-container h3 {
+  font-size: 2rem;
+  text-wrap: wrap;
+}
+
+.card-container p {
+  font-size: 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.remove-btn, .read-btn{
+  padding: .5rem;
+  width: 5rem;
+  background-color: brown;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.remove-btn:hover, .read-btn:hover {
+  opacity: .8;
+}
