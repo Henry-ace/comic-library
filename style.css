@@ -45,8 +45,17 @@
 
 .dialog {
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 2rem;
   background-color: brown;
+  width: 20rem;
+}
+
+.remove {
+  display: none;
+}
+
+.display {
+  display: grid;
 }
 
 .dialog::backdrop {
@@ -136,4 +145,13 @@ input[type='text']:focus {
 
 .remove-btn:hover, .read-btn:hover {
   opacity: .8;
+}
+
+.read-btn {
+  background-color: rgba(14, 193, 14, 0.834);
+}
+
+.not--read-book {
+  background-color: rgb(255, 0, 0);
+
 }
